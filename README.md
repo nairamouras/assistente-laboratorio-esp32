@@ -32,7 +32,7 @@
 
 ## Etapa 3: unindo os dois microcontroladores
 
-  Nesta etapa ao invés de utilizar a rede local no código da câmera, utiliza-se a rede criada pelo ESP32-WROOM no código do roteador. 
+  Nesta etapa ao invés de utilizar a rede local definida no código da câmera, utiliza-se a rede criada pelo ESP32-WROOM no código do roteador. 
 
 
 ## Referências
