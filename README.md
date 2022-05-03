@@ -39,7 +39,22 @@
 
 ## Etapa 1: ligando a ESP32-CAM
 
+  A primeira coisa a ser feita para dar início ao projeto é a ligação da ESP32-CAM. Para isso, é necessário utilizar o ambiente de desenvolvimento do Arduino.  
+  
+  [Link para o passo a passo da instalação da IDE no Windows.](https://youtu.be/FoaDfe5b-_Q)
+  
+  Feita a instalação, o próximo passo é selecionar a placa para a câmera nas ferramentas do ambiente:
+  
+  `Ferramentas >> Placa `
+  
+  Em seguida, siga o seguinte caminho para acionar a porta de conexão:
+  
+  ``
+  
+  
 ## Etapa 2: criando um roteador com o ESP32-WROOM
+
+  A segunda etapa consiste em criar e rotear uma rede Wi-Fi com o ESP32-WROOM.
 
 ## Etapa 3: unindo os dois microcontroladores
 
