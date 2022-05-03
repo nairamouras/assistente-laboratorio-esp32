@@ -53,7 +53,7 @@
     
   Selecione a porta de conexão:
   
-    Ferramentas >> Porta >> porta USB em que a ESP32-CAM está conectada
+    Ferramentas >> Porta >> porta USB em que a ESP32-CAM está conectada no seu computador
     
   Agora, insira nesse trecho do código o **nome** e a **senha** da **rede local em que seu computador está conectado**:
   
@@ -66,16 +66,40 @@
   
   Finalizando a execução desses passos, compile, carregue o código e abra o monitor serial, cujo ícone está no canto superior direito da IDE.
   
+   ![](https://blogmasterwalkershop.com.br/wp-content/uploads/2016/12/img01_arduino_exibindo_e_lendo_dados_da_serial.jpg)
+  
+   [Fonte: MasterWalker - Arduino, 2022.](https://blogmasterwalkershop.com.br/arduino/arduino-exibindo-e-lendo-dados-da-serial)
+  
    Por fim, copie o endereço IP gerado e cole no seu navegador. Com a aba aberta, escolha uma resolução e aperte para iniciar a captura do vídeo em *Start Stream*. 
   
 ## Etapa 2: criando um roteador com o ESP32-WROOM
 
-  A segunda etapa consiste em criar e rotear uma rede Wi-Fi com o ESP32-WROOM.
+  A segunda etapa consiste em criar e rotear uma rede Wi-Fi com o ESP32-WROOM. O código desenvolvido pode ser encontrado neste [link.](https://randomnerdtutorials.com/esp32-access-point-ap-web-server/)
+  
+  Novamente, escolha a placa a ser utilizada:
+  
+    Ferramentas >> Placas >> ESP32 Arduino >> ESP32 Dev Module
+    
+  Logo após, a porta de conexão:
+  
+    Ferramentas >> Porta >> porta USB em que a ESP32-CAM está conectada no seu computador
+  
+  Nesse caso, insira o nome e a senha que deseja para a sua rede:
+  
+    const char* ssid = "ESP32-Access-Point";
+    const char* password = "123456789";
+    
+  *Uma observação importante:* alguns ESP32-WROOM necessitam que o botão de **boot** esteja pressionado durante todo o processo de carregamento do código.
+  
+  O processo de execução do código do roteador é igual ao da câmera, mas lembre-se de conectar o seu computador na rede que você criou:
+  
+  ![](https://blogmasterwalkershop.com.br/wp-content/uploads/2016/12/img01_arduino_exibindo_e_lendo_dados_da_serial.jpg)
+  
+  [Fonte: Random Nerd Tutorials, 2022.](https://blogmasterwalkershop.com.br/arduino/arduino-exibindo-e-lendo-dados-da-serial)
 
 ## Etapa 3: unindo os dois microcontroladores
 
   Nesta etapa ao invés de utilizar a rede local definida no código da câmera, utiliza-se a rede criada pelo ESP32-WROOM no código do roteador. 
-
 
 ## Referências
 
