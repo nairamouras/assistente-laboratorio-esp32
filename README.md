@@ -3,9 +3,9 @@
 
 ## Conteúdo
 
-1. Objetivo
-2. Ideia do projeto
-3. Materiais utilizados
+1. [Objetivo](https://github.com/nairamouras/assistente-laboratorio-esp32/blob/main/README.md#objetivo)
+2. [Ideia do projeto](https://github.com/nairamouras/assistente-laboratorio-esp32/blob/main/README.md#ideia-do-projeto)
+3. [Materiais utilizados](https://github.com/nairamouras/assistente-laboratorio-esp32/blob/main/README.md#materiais-utilizados)
 4. Etapa 1: ligando a ESP32-CAM
 5. Etapa 2: criando um roteador com o ESP32-WROOM
 6. Etapa 3: unindo os dois microcontroladores
