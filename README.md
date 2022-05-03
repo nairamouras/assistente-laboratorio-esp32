@@ -35,3 +35,9 @@
 
 
 ## Referências
+
+RANDOM NERD TUTORIALS. ***How to Set an ESP32 Access Point (AP) for Web Server***. Disponível em: <<https://randomnerdtutorials.com/esp32-access-point-ap-web-server/>>
+
+TUTORIAIS TECNOLOGIAS TENDÊNCIAS. **Instalando ESP32 no Arduino IDE: Método fácil.** Disponível em: <<https://www.fernandok.com/2018/09/instalando-esp32-no-arduino-ide-metodo.html>>
+
+KENJI MARCOS SUZUKI. **Como Instalar IDE do Arduino no Windows.** Disponível em: <<https://youtu.be/FoaDfe5b-_Q>>
