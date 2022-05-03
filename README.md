@@ -31,4 +31,7 @@
 
 ## Etapa 3: unindo os dois microcontroladores
 
+  Nesta etapa ao invés de utilizar a rede local para a ESP32-CAM, utiliza-se a rede criada pelo ESP32-WROOM. 
+
+
 ## Referências
