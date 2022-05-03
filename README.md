@@ -1,6 +1,16 @@
 # assistente-laboratorio-esp32
   Assistente de laboratório com ponto de acesso Wi-Fi utilizando ESP32
 
+## Conteúdo
+
+1. Objetivo
+2. Ideia do projeto
+3. Materiais utilizados
+4. Etapa 1: ligando a ESP32-CAM
+5. Etapa 2: criando um roteador com o ESP32-WROOM
+6. Etapa 3: unindo os dois microcontroladores
+7. Etapa 4: montando o protótipo
+
 ## Objetivo
 
   O objetivo deste projeto é desenvolver um protótipo capaz de realizar a transmissão em tempo real de um vídeo para outros dispositivos conectados em uma mesma rede Wi-Fi, mesmo que não haja conexão com a internet.
