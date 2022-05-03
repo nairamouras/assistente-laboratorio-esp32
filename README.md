@@ -93,7 +93,7 @@
   
   O processo de execução do código do roteador é igual ao da câmera, mas lembre-se de conectar o seu computador na rede que você criou:
   
-  ![](https://blogmasterwalkershop.com.br/wp-content/uploads/2016/12/img01_arduino_exibindo_e_lendo_dados_da_serial.jpg)
+  ![](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/07/ESP32-access-point.jpg?w=600&quality=100&strip=all&ssl=1)
   
   [Fonte: Random Nerd Tutorials, 2022.](https://randomnerdtutorials.com/esp32-access-point-ap-web-server/)
 
