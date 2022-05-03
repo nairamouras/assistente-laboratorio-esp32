@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-  O objetivo deste projeto é desenvolver um protótipo capaz de realizar a transmissão em tempo real de um vídeo para outros dispositivos por meio de uma rede Wi-Fi, mesmo que não haja conexão com a internet.
+  O objetivo deste projeto é desenvolver um protótipo capaz de realizar a transmissão em tempo real de um vídeo para outros dispositivos conectados em uma mesma rede Wi-Fi, mesmo que não haja conexão com a internet.
 
 ## Ideia do projeto
 
