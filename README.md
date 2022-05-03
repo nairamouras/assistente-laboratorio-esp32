@@ -95,7 +95,7 @@
   
   ![](https://blogmasterwalkershop.com.br/wp-content/uploads/2016/12/img01_arduino_exibindo_e_lendo_dados_da_serial.jpg)
   
-  [Fonte: Random Nerd Tutorials, 2022.](https://blogmasterwalkershop.com.br/arduino/arduino-exibindo-e-lendo-dados-da-serial)
+  [Fonte: Random Nerd Tutorials, 2022.](https://randomnerdtutorials.com/esp32-access-point-ap-web-server/)
 
 ## Etapa 3: unindo os dois microcontroladores
 
