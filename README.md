@@ -27,14 +27,14 @@
 - 1 ESP32-CAM + Módulo MB
 - 2 protoboards
 - 1 luminária USB
-- 1 fonte 5V com duas entradas USB
+- 1 fonte de 5V com duas entradas USB
 - 1 tomada
 - 1 plug de tomada macho
 - 1 fio de extensão
 - 1 tábua de madeira
 - 2 parafusos
 - 2 LEDs
-- 2 resistors 330 ohms
+- 2 resistors de 330 ohms
 - 3 fios de ligação
 
 ## Etapa 1: ligando a ESP32-CAM
@@ -45,12 +45,28 @@
   
   Feita a instalação, o próximo passo é selecionar a placa para a câmera nas ferramentas do ambiente:
   
-  `Ferramentas >> Placa `
+    Ferramentas >> Placas >> ESP32 Arduino >> AI Thinker ESP32-CAM
   
-  Em seguida, siga o seguinte caminho para acionar a porta de conexão:
+  Em seguida, siga o seguinte caminho para importar a biblioteca da câmera e o código de configuração:
   
-  ``
+    Exemplos >> ESP32 >> Camera >> CameraWebServer
+    
+  Selecione a porta de conexão:
   
+    Ferramentas >> Porta >> porta USB em que a ESP32-CAM está conectada
+    
+  Agora, insira nesse trecho do código o **nome** e a **senha** da **rede local em que seu computador está conectado**:
+  
+    const char* ssid = "ESP32-Access-Point";
+    const char* password = "123456789";
+   
+  Descomente o seguinte *#define* do cabeçalho:
+   
+    #define CAMERA_MODEL_AI_THINKER // Has PSRAM
+  
+  Finalizando a execução desses passos, compile, carregue o código e abra o monitor serial, cujo ícone está no canto superior direito da IDE.
+  
+   Por fim, copie o endereço IP gerado e cole no seu navegador. Com a aba aberta, escolha uma resolução e aperte para iniciar a captura do vídeo em *Start Stream*. 
   
 ## Etapa 2: criando um roteador com o ESP32-WROOM
 
