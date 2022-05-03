@@ -1,4 +1,5 @@
-# ![assistente-laboratorio-esp32](https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D281533541890015&imgrefurl=https%3A%2F%2Fwww.facebook.com%2FIFMT.Oficial%2F&tbnid=I572CpmDCBVFAM&vet=12ahUKEwiW59Xg2sL3AhU-NrkGHa4ZBFQQMygAegUIARDCAQ..i&docid=T3jUdXM7iK5hmM&w=800&h=800&q=ifmt%20logo&ved=2ahUKEwiW59Xg2sL3AhU-NrkGHa4ZBFQQMygAegUIARDCAQ)
+# :information_desk_person: :computer: assistente-laboratorio-esp32
+
   Assistente de laboratório com ponto de acesso Wi-Fi utilizando ESP32
 
 ## Conteúdo
