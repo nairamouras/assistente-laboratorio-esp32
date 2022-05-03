@@ -10,6 +10,21 @@
   
 ## Materiais utilizados
 
+- 2 cabos USB
+- 1 ESP32-WROOM
+- 1 ESP32-CAM + Módulo MB
+- 2 protoboards
+- 1 luminária USB
+- 1 fonte 5V com duas entradas USB
+- 1 tomada
+- 1 plug de tomada macho
+- 1 fio de extensão
+- 1 tábua de madeira
+- 2 parafusos
+- 2 LEDs
+- 2 resistors 330 ohms
+- 3 fios de ligação
+
 ## Etapa 1: ligando a ESP32-CAM
 
 ## Etapa 2: criando um roteador com o ESP32-WROOM
