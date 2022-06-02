@@ -1,6 +1,7 @@
 # :information_desk_person: :computer: assistente-laboratorio-esp32
 
   ### Assistente de laboratório com ponto de acesso Wi-Fi utilizando ESP32
+  *Apresentação em vídeo disponível [aqui](https://youtu.be/7KQyG0FSOPc)*
 
 ## Conteúdo
 
